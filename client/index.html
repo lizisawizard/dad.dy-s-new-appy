@@ -7,19 +7,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Node.js Graph Proxy Client</title>
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/bos1zwm.css">
   <link rel="shortcut icon" href="g-raph.png">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+  <nav>
+    <ul>
+      <li><a href="#">home</a></li>
+      <li><a href="#">about</a></li>
+      <li><a href="#">contact us</a></li>
+    </ul>
+  </nav>
   <main id="main-container" role="main" class="container">
-    <h2>Login component</h2>
-    <mgt-login></mgt-login>
-    <h2>Person component</h2>
-    <mgt-person person-query="me" person-card="hover" show-presence="true" view="twolines"></mgt-person>
-    <h2>Tasks component</h2>
-    <mgt-tasks data-source="todo"></mgt-tasks>
+      <mgt-login>
+        <template data-type="signed-out-button-content" style="width: 50%; margin: auto;">
+            <span style="margin: auto; width: 50%;">Login</span>
+        </template>
+      </mgt-login>
+    
+    <h1>Daddy's <br> Appy</h1>
+    <!-- <h2>Person component</h2>
+    <mgt-person person-query="me" person-card="hover" show-presence="true" view="twolines"></mgt-person> -->
+    <!-- <h2>Tasks component</h2>
+    <mgt-tasks data-source="todo"></mgt-tasks> -->
   </main>
 
   <!-- MSAL -->
