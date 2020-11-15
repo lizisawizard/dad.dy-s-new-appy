@@ -20,8 +20,9 @@ body {
 }
 
 #about{
-  width: fit-content;
+  width:160%;
   text-align: right;
+
 }
 
 mgt-login{
@@ -41,9 +42,6 @@ mgt-login{
   border-radius: 28.5px;
 }
 
-mgt-login .login-button{
-  
-}
 
 
 nav ul{
