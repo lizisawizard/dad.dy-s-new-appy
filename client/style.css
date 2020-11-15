@@ -3,37 +3,48 @@ body {
 }
 
 .container{
-  margin: 10%;
+  margin: 5% 0 0 10%;
   display: inline-grid;
   width: 10%;
   
 }
 
+.center-elem{
+  width: 60%;
+  margin: 0 0 0 20%;
+  padding-left: 10%;
+}
+
+.log{
+  margin: 0 0 0 400px;
+}
+
+#about{
+  width: fit-content;
+  text-align: right;
+}
+
 mgt-login{
-  background-color: #6ABEA7;
-  --font-size: 14px;
+  justify-content: center;
+  background-color: #FB942E;
+  --font-size: 37px;
   --font-weight: 600;
   --height: 57px;
   width: 305px;
   --margin: 0;
-  --padding: 12px 20px;
-  --color: #201f1e;
+  margin: 0;
+  --padding: 0 20px;
+  --color: #ffffff;
   --background-color: transparent;
   --popup-command-font-size: 12px;
   --popup-color: #201f1e;
   border-radius: 28.5px;
-
-
 }
 
-.login-button{
-  width: 300px;
+mgt-login .login-button{
+  
 }
-.login-button:hover{
-  background-color: #6ABEA7 !important; 
-  color: #6ABEA7 !important;
-  --color: #6ABEA7 !important;
-}
+
 
 nav ul{
   list-style-type: none;
