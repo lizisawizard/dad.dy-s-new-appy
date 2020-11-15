@@ -3,9 +3,9 @@
 
 const msalConfig = {
   auth: {
-    clientId: '816bc2d3-3b4a-4239-9b69-9bdd414271f4',
-    redirectUri: 'https://politic-bee.azurewebsites.net'
+    clientId: '765fa6e1-2fa4-4a0f-a4a3-5f6cea54312a',
+    redirectUri: 'https://politic-bee.azurewebsites.net/.auth/login/aad/callback'
   }
 }
 
-const apiScopes = ['api://40cd0f57-fa95-4ffa-8ade-a8b301f5bb7c/.default']
+const apiScopes = ['api://765fa6e1-2fa4-4a0f-a4a3-5f6cea54312a/user_impersonation']
