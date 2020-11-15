@@ -1,4 +1,4 @@
-Use the following think for our prototype:
+Use the following link for our prototype:
 https://xd.adobe.com/view/f66c886e-4e7d-4b39-bb54-e59aa3b63b31-a33f/?fullscreen 
 
 
