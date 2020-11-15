@@ -4,7 +4,7 @@
 const msalConfig = {
   auth: {
     clientId: '816bc2d3-3b4a-4239-9b69-9bdd414271f4',
-    redirectUri: 'http://localhost:8000/authcomplete'
+    redirectUri: 'https://politic-bee.azurewebsites.net'
   }
 }
 

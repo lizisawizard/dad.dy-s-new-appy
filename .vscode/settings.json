@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/d33cb56e-5c22-4f46-8cc5-89f27dd35427/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/politic-bee",
+    "appService.deploySubpath": "."
+}

@@ -12,7 +12,7 @@ import proxyRequest from './proxy';
 dotenv.config();
 
 const app = express();
-const PORT = 8000;
+const PORT = process.env.port || 8080;
 const router = Router();
 
 // Support JSON payloads
